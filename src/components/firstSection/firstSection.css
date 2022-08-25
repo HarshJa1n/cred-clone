@@ -19,6 +19,25 @@
   line-height: 38px;
 }
 
+.claim-label {
+  background-color: var(--bg-gray);
+  width: 100%;
+  position: absolute;
+  height: 72px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.claim-arrow {
+  height: 11px;
+  margin: 7px 0px 0px 8px;
+}
+
+.claim-anchor {
+  color: var(--link-blue);
+  margin-left: 17px;
+}
 @media all and (max-width: 1279px) {
   .first-heading {
     font-size: 82px;
@@ -27,6 +46,10 @@
 
   .first-subheading {
     font-size: 25px;
+  }
+
+  .claim-anchor {
+    margin-left: 0px;
   }
 }
 
@@ -48,5 +71,15 @@
     font-size: 16px;
     line-height: 22px;
     margin: 35px 0px;
+  }
+
+  .claim-arrow {
+    height: 6px;
+    margin: 2px 0px 0px 3px;
+  }
+
+  .claim-label {
+    height: 55px;
+    font-size: 13px;
   }
 }
