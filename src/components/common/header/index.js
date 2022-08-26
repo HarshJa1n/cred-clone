@@ -10,6 +10,13 @@ const Header = () => {
 
   return (
     <div className="menu-wrapper">
+      <div className="not-mobile flex make-center harsh">
+        On Progress... Made by{" "}
+        <a href="https://github.com/HarshJa1n" className="gitlink">
+          {" "}
+          Harsh
+        </a>
+      </div>
       <div className={`mobile-menu only-mobile ${onMenu ? "overlay" : ""}`}>
         <div className="mobile-navbar">
           <div className="mobile-nav-item">credit score check</div>
