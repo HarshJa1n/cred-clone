@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div className="menu-wrapper">
       <div className="not-mobile flex make-center harsh">
-        On Progress... Made by{" "}
+        In Progress... Made by{" "}
         <a href="https://github.com/HarshJa1n" className="gitlink">
           {" "}
           Harsh
