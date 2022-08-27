@@ -1,0 +1,60 @@
+.complete-section {
+  width: 100vw;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png);
+  background-size: cover;
+  background-position: right top;
+}
+
+.scimage-group {
+  min-height: 70%;
+}
+
+.scimage {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.image-1 {
+  transform: translate(-160%, 25%);
+  z-index: 98;
+}
+
+.image-2 {
+  transform: translate(-105%, 15%);
+  z-index: 99;
+}
+.image-3 {
+  transform: translate(-50%, 5%);
+  z-index: 100;
+}
+.image-4 {
+  transform: translate(5%, 15%);
+  z-index: 99;
+}
+.image-5 {
+  transform: translate(60%, 25%);
+  z-index: 98;
+}
+
+@media all and (max-width: 1279px) {
+  .complete-section {
+    height: 620px;
+  }
+  .scimage {
+    width: 300px;
+  }
+}
+
+@media all and (max-width: 1279px) {
+  .complete-section {
+    height: 450px;
+    background-color: rgb(15, 15, 15);
+  }
+  .scimage {
+    width: 170px;
+  }
+}
