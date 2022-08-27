@@ -57,6 +57,9 @@
   background-color: var(--bg-light-gray);
 }
 
+.harsh {
+  font-size: small;
+}
 .gitlink {
   margin-left: 5px;
   color: var(--text);
