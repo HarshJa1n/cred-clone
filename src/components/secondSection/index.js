@@ -35,12 +35,12 @@ const SecondSection = () => {
   });
 
   return (
-    <div
-      className={`complete-section ${showAnimation ? "scale-in-bottom" : ""} `}
-      ref={ref}
-    >
-      {showAnimation && (
-        <div className="scimage-group">
+    <div className="complete-section">
+      {
+        <div
+          className={`scimage-group ${showAnimation ? "scale-in-bottom" : ""} `}
+          ref={ref}
+        >
           <img
             src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/left-2.png"
             alt="image1"
@@ -67,7 +67,7 @@ const SecondSection = () => {
             className="scimage image-5"
           />
         </div>
-      )}
+      }
     </div>
   );
 };
