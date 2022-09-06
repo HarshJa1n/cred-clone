@@ -7,14 +7,19 @@
   background-size: cover;
   background-position: right top;
 }
-
 .scimage-group {
+  width: 100vw;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.testnig {
   min-height: 70%;
 }
 
 .scimage {
   position: absolute;
-  bottom: 0;
+
   left: 50%;
 }
 
@@ -41,20 +46,22 @@
 }
 
 @media all and (max-width: 1279px) {
-  .complete-section {
+  .complete-section,
+  .scimage {
     height: 620px;
   }
-  .scimage {
+  .testnig {
     width: 300px;
   }
 }
 
 @media all and (max-width: 1279px) {
-  .complete-section {
+  .complete-section,
+  .scimage {
     height: 450px;
     background-color: rgb(15, 15, 15);
   }
-  .scimage {
+  .testnig {
     width: 170px;
   }
 }
