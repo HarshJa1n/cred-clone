@@ -1,0 +1,23 @@
+.blue-section {
+  background-color: var(--bg-blue);
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg.jpg);
+}
+
+@media all and (max-width: 1279px) {
+  .blue-section {
+    background-position: center bottom;
+  }
+}
+@media all and (max-width: 767px) {
+  .blue-section {
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg-mobile.jpg);
+    min-height: 1150px;
+    background-position: right center;
+  }
+  .blue-heading {
+    margin-top: 400px;
+  }
+  .blue-description {
+    margin-top: 100px;
+  }
+}
